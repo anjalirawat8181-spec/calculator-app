@@ -5,6 +5,7 @@ import SimpleCalculator from './pages/SimpleCalculator';
 import ScientificCalculator from './pages/ScientificCalculator';
 import CurrencyCalculator from './pages/CurrencyCalculator';
 import BMICalculator from './pages/BMICalculator';
+import EMICalculator from './pages/EMICalculator';
 import History from './pages/History';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/scientific" element={<ScientificCalculator />} />
         <Route path="/currency" element={<CurrencyCalculator />} />
         <Route path="/bmi" element={<BMICalculator />} />
+        <Route path="/emi" element={<EMICalculator />} />
         <Route path="/history" element={<History />} />
       </Routes>
     </AnimatePresence>
