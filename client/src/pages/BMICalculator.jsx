@@ -80,13 +80,13 @@ export default function BMICalculator() {
           </button>
           <div>
             <h1 className="section-title">BMI Calculator</h1>
-            <p className="subtitle">Metric or Imperial body mass index</p>
+            <p className="subtitle">SI units or customary units body mass index</p>
           </div>
         </div>
 
         <div className="toggle-pill" style={{ marginBottom: 24 }}>
-          <button className={mode === 'metric' ? 'active' : ''} onClick={() => setMode('metric')}>Metric</button>
-          <button className={mode === 'imperial' ? 'active' : ''} onClick={() => setMode('imperial')}>Imperial</button>
+          <button className={mode === 'metric' ? 'active' : ''} onClick={() => setMode('metric')}>SI units</button>
+          <button className={mode === 'imperial' ? 'active' : ''} onClick={() => setMode('imperial')}>customary units</button>
         </div>
 
         <div style={{ display: 'grid', gap: 18 }}>
