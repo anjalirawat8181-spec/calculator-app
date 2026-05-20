@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import SimpleCalculator from './pages/SimpleCalculator';
 import ScientificCalculator from './pages/ScientificCalculator';
+import SIPCalculator from './pages/SIPCalculator';
 import CurrencyCalculator from './pages/CurrencyCalculator';
 import BMICalculator from './pages/BMICalculator';
 import EMICalculator from './pages/EMICalculator';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/currency" element={<CurrencyCalculator />} />
         <Route path="/bmi" element={<BMICalculator />} />
         <Route path="/emi" element={<EMICalculator />} />
+        <Route path="/sip" element={<SIPCalculator />} />
         <Route path="/history" element={<History />} />
       </Routes>
     </AnimatePresence>

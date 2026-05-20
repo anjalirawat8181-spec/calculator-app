@@ -5,6 +5,7 @@ const cards = [
   { emoji: '🔢', title: 'Simple', description: 'Quick arithmetic & everyday math', route: '/simple' },
   { emoji: '🔬', title: 'Scientific', description: 'Advanced functions, sin, cos, log', route: '/scientific' },
   { emoji: '💱', title: 'Currency', description: 'Live foreign exchange conversions', route: '/currency' },
+  { emoji: '📈', title: 'SIP', description: 'Systematic investment planning with returns growth', route: '/sip' },
   { emoji: '🏋️', title: 'BMI', description: 'Body mass index and health bands', route: '/bmi' },
   { emoji: '🏦', title: 'EMI', description: 'Loan EMI, total interest and payment', route: '/emi' }
 ];
